@@ -9,19 +9,18 @@ body {
   color: #444;
   font-family: "Inter", sans-serif;
   color: #343a40;
-  border-top: 10px solid rgb(255, 213, 0);
+  /* border-top: 10px solid rgb(255, 213, 0); */
   position: relative;
 }
 
 .container,
 .container1 {
-  width: 960px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 .main-header {
   background-color: rgb(255, 213, 0);
-
   padding: 20px 40px;
 }
 
@@ -122,9 +121,9 @@ a:visited {
 }
 
 a:hover {
-  color: orangered;
+  color: #ff8100;
   font-weight: bold;
-  text-decoration: underline orangered;
+  text-decoration: underline #ff8100;
 }
 
 a:active {
@@ -213,6 +212,7 @@ h2 {
 .news {
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
 }
+
 article {
 }
 
@@ -264,7 +264,7 @@ h3 {
 }
 
 .chair-icon {
-  stroke: #087f5b;
+  stroke: #ff8100;
   width: 24px;
   height: 24px;
 }
@@ -295,14 +295,23 @@ h3 {
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
 }
 
 /* Some left and right padding inside the container */
 .container1 {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
   padding: 0 16px;
 }
-
+/* .container1 h2 p {
+  text-align: center;
+} */
 /* Clear floats */
+
 .container1::after,
 .row::after {
   content: "";
