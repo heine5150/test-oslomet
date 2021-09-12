@@ -267,14 +267,14 @@ footer {
 }
 
 /* Some left and right padding inside the container */
-.container1 {
+/* .container1 {
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
   column-gap: 75px;
   row-gap: 60px;
   align-items: start;
   padding: 0 16px;
-}
+} */
 
 /* Clear floats */
 
